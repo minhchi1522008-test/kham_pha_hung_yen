@@ -29,3 +29,31 @@ li {
     font-size: 20px;   /* Lệnh tăng kích thước chữ (bạn có thể tăng giảm số 22 tùy ý) */
     color: #180e0e;    /* (Tùy chọn) Mình đổi sang màu xanh lá đậm một chút cho nổi bật hơn */
 }
+/* Trang trí cho đoạn trích dẫn (Blockquote) */
+blockquote {
+    font-size: 24px;
+    font-style: italic; /* Chữ in nghiêng */
+    color: #b45309;
+    border-left: 5px solid #b45309; /* Tạo một đường kẻ dọc bên trái */
+    padding-left: 15px; /* Đẩy chữ cách xa đường kẻ dọc ra một chút */
+    margin: 20px 0;
+    background-color: #fffbeb; /* Nền màu vàng nhạt */
+    padding: 10px 15px;
+}
+
+/* Trang trí phần chân trang (Footer) */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #166534; /* Nền xanh lá đậm */
+    color: white; /* Chữ màu trắng */
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px; /* Bo tròn các góc cho mềm mại */
+}
+
+/* Tạo hiệu ứng: Khi người dùng di chuột (hover) vào đường link, link sẽ đổi màu */
+a:hover {
+    color: red;
+    text-decoration: underline; /* Hiện đường gạch chân */
+}
