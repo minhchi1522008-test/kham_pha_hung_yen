@@ -1,0 +1,31 @@
+/*Chỉnh sửa toàn bộ trang web*/
+body{
+    font-family: Arial, sans-serif; /*Đổi phông chũ*/
+    background-color: #f0fdf4; /*Màu nền*/
+    color: #333; /*màu chữ*/
+    margin: 40px; /*Tạo khung lề*/
+    
+    }
+
+h1{
+    color: #166534; 
+    text-align: center; /*Đẩy dòng chữ ra giữa màn hình*/
+    }
+ h2{
+    color: #b45309;
+    padding-bottom: 5px; /*Tạo 1 khoảng đệm phía dưới*/
+    }
+ul,ol{
+    line-height: 1,8; /*Tăng khoẳng cách giữa các dòng chữ*/
+    font-size: 18px; /*Phóng to chữ*/
+    }
+   
+li {
+    margin-bottom: 15px; 
+}
+/* Chỉnh sửa riêng cho đoạn mở đầu */
+.mo-dau {
+    font-weight: bold; /* Lệnh in đậm chữ */
+    font-size: 20px;   /* Lệnh tăng kích thước chữ (bạn có thể tăng giảm số 22 tùy ý) */
+    color: #180e0e;    /* (Tùy chọn) Mình đổi sang màu xanh lá đậm một chút cho nổi bật hơn */
+}
